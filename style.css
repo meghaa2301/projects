@@ -1,0 +1,309 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.navbar a{
+    color: #fff;
+    padding-top: 20px;
+    border-bottom: 2px solid red;
+    margin: 17px;
+    
+}
+
+.navbar a:hover{
+    color: black;
+   border-bottom: 1px solid white;
+
+}
+
+.navbar button{
+    color: #fff;
+    background-color: red;
+}
+
+.nav_i{
+background-color: black;
+color: #fff;
+padding-top: 5px;
+cursor: pointer;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.nav .dropdown-menu{
+    background-color: red;
+    padding-left: 0px;
+    color: #fff;
+}
+
+
+.dropdown-menu{
+   font-size: 12px;
+   width: 30%;
+}
+
+.dropdown-menu a{
+  padding: 0;
+}
+
+
+.midle{
+    background-color: black;
+   text-align: center;
+  padding-left: 10px;
+}
+
+.midle button{
+    padding: 20px;
+    border-radius: 60px;
+    padding-left: 20px;
+    margin: 20px;
+    margin-left: 90px;
+    background-color: red;
+    color: #fff;
+    width: 130px;
+}
+
+.midle button:hover{
+ background-color: rgb(95, 55, 55);
+}
+
+.midle a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.images{
+    padding: 40px;
+    position: relative;
+}
+
+.images a{
+text-decoration: none;
+font-size: 20px;
+color: white;
+border: 0px solid black;
+
+border-radius: 4px;
+padding: 5px;
+background-color: red;
+}
+
+
+
+
+
+.images img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.images img:hover{
+    transform: scale(1.2);
+}
+
+
+.footer{
+    background-color: black;
+    padding: 60px;
+    font-size: 14px;
+}
+
+.footer h5{
+    color: #fff;
+    border-bottom: 2px solid red;
+    width: 190px;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: red;
+    
+}
+
+.footer p{
+    color: #fff;
+}
+
+.test{
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+}
+
+.test .col-sm-5{
+    background-color: red;
+    color: white;
+    height: 600px;
+}
+
+
+.social{
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+.social:hover{
+color: red;
+}
+
+form{
+    cursor: pointer;
+    border: none;
+}
+
+.name{
+   
+  padding-right: 100px;
+    margin-left: 20px;
+    
+}
+
+.company{
+    
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+.email{
+    
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+.city{
+    
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+.message{
+    
+    padding: 40px;
+    padding-right: 80px;
+    margin-left: 20px;
+}
+
+.cap{
+    padding: 3px;
+    padding-right: 80px;
+    margin-left: 20px;
+}
+
+.contact img{
+    height: 400px;
+    width: 400px;
+}
+
+.contact_i button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+   
+    font-weight: bold;
+   
+}
+
+.contact_i button:hover{
+    background-color: black;
+}
+
+.clients{
+    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.svp{
+    width: 100%;
+}
+
+.svp .col-sm-6{
+    background-color: red;
+    color: #fff;
+}
+
+
+
+
+
+.industry{
+    background-color: black;
+    width: 100%;
+}
+
+.industry img{
+   height: 900px;
+   width: 100%;
+  
+}
+
+.ach{
+    position: relative;
+}
+
+.ach img{
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.ach-text{
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+
+/* .box{
+    border: 1px solid white;
+    height: 90px;
+    width: 280px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+} */
+
+
+
+.text_i{
+  
+    top: 0;
+    color: #fff;
+    padding-top: 180px;
+    display: flex;
+}
+
+.box1{
+    padding: 30px;
+    border: 1px  solid white;
+}
+
+
+.box2{
+    padding: 30px;
+}
+
+.box3{
+    padding: 30px;
+}

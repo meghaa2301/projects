@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVG</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="style.css">
+  <!--aos-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--bootsrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--jquery-->
+  <script src="jquery-3.6.1.min.js"></script>
+  <!--bootsrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <!--nav-->
+  <nav class="nav">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand "></a>
+        <img src="img/logo.png" height="70" width="100">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active" style="color: #fff;" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #fff;" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About us
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                <li><a class="dropdown-item" href="profile.html#svp">Why SVP?</a></li>
+                <li><a class="dropdown-item" href="profile.html#industry">Industry Wise Application</a></li>
+                <li><a class="dropdown-item" href="profile.html#achievements">Achievements</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #fff;" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="bag.html">Zipper Bags</a></li>
+                <li><a class="dropdown-item" href="zip.html">Zipper Profiles</a></li>
+                <li><a class="dropdown-item" href="attach.html">Attached Zipper Bags</a></li>
+                <li><a class="dropdown-item" href="slider.html">Slider Bags</a></li>
+                <li><a class="dropdown-item" href="retail.html">Retail Pack</a></li>
+                <li><a class="dropdown-item" href="special.html">Speciality Zipper Bags</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link active" style="color: #fff;" aria-current="page" href="quality.html">Quality</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;" href="clients.html">Clients</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;" href="news.html">News & Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #fff;" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+
+  <!--slider-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pic1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic2'.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pic5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--middle-->
+  <div class="midle">
+    <div class="row">
+      <div class="col-sm-11">
+        <h2 style="color: red; padding-left: 10px; padding-top: 50px;" data-aos="fade-up" data-aos-once="true">SVP
+          PACKING INDUSTRY PVT LTD.</h2>
+        <h2 style="font-family: Arial, Helvetica, sans-serif; color: gray; padding-left: 20px;" data-aos="fade-up"
+          data-aos-once="true">India's leading Zipper
+          packaging company since 1981</h2>
+        <br>
+        <p style="color: #fff; padding-left: 9px;" data-aos="fade-up" data-aos-once="true">Established in 1981 in a
+          modest way, SVP introduced the concept of
+          Reclosable Packaging in India<br> through its brand Magicseal®. SVP has maintained its leadership over 4
+          decades through a single, simple principle,<br> “SATISFACTION OF EVERY CUSTOMER”.<br> The credit for our
+          market leadership goes largely to the<br>minute attention to details and consistent R & D.</p>
+        <br>
+        <p style="color: #fff; padding-left: 30px;" data-aos="fade-up" data-aos-once="true">With a vision and commitment
+          to attain reclosability on a<br> wider
+          range, SVP introduced the concept of Zipper Profiles and Zipper Attached Bags<br> in India in 2003. </p>
+        <br>
+        <button type="button"><a href="profile.html">Read More</button></a>
+
+      </div>
+    </div>
+  </div>
+
+  <!--our products-->
+  <div class="pro" data-aos="fade-up" data-aos-once="true">
+    <h3 style="text-align: center ; font-weight: bold; padding-top: 40px; font-family: sans-serif;" data-aos="fade-up"
+      data-aos-once="true">Our</h3>
+    <h1 style="text-align: center ; color: red; letter-spacing: 2px;" data-aos="fade-up" data-aos-once="true">Products
+    </h1>
+  </div>
+
+  
+
+  <div class="images" data-aos="fade-up" data-aos-once="true">
+    <div class="imge">
+      <div class="row">
+        <div class="col-sm-4 pt-5">
+          <img src="img/pro1.jpg">
+          <h6>Attached Zipper Bags</h6>
+          <a href="bag.html">Read More</a>
+        </div>
+
+
+        <div class="col-sm-4 pt-5">
+          <img src="img/pro2.jpg">
+          <h6>Speciality Zipper Bags</h6>
+          <a href="special.html">Read More</a>
+        </div>
+
+
+        <div class="col-sm-4 pt-5">
+          <img src="img/pro3.jpg">
+          <h6>Zipper Bags</h6>
+          <a href="bag.html">Read More</a>
+        </div>
+
+        <div class="col-sm-4 pt-5">
+          <img src="img/pro4.jpg">
+          <h6>Reatil Pack</h6>
+          <a href="retail.html">Read More</a>
+        </div>
+
+        <div class="col-sm-4 pt-5">
+          <img src="img/pro5.jpg">
+          <h6>Zipper Profiles</h6>
+          <a href="zip.html">Read More</a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!--testimonials-->
+  <div class="test" data-aos="fade-up" data-aos-once="true">
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 style="padding-left: 100px; padding-top: 30px; color: red;" data-aos="fade-up" data-aos-once="true">Our
+          Testimonials</h2>
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p style="padding-left: 70px; padding-top: 10px;" data-aos="fade-up" data-aos-once="true">"We have Been
+                buying Polybags from SVP Packaging for years now.<br>The prices are quite
+                competitive and they are always open to Product Customization as per customers<br>
+                requirement.You'll never have to waste your time in unnecessary follow-ups in case<br>
+                of SVP Packing"</p>
+              <br>
+              <h4 style="color: red; padding-left: 60px;" data-aos="fade-up" data-aos-once="true">-Anshika Bajpal
+                [Principal Lead]</h4>
+              <h5 style="padding-left: 90px;" data-aos="fade-up" data-aos-once="true">PN International [100% EOU]</h5>
+            </div>
+               <div class="carousel-item">
+              <p style="padding-left: 50px; padding-top: 10px;" data-aos="fade-up" data-aos-once="true">"We are sourcing
+                ziplock polybags from them and find their quality quite satisfactory<br>
+                It meets all our quality norms. They have ample variety customised to our needs.Delivery<br>
+                terms are excellent...<br>
+                I highly recommend their polybags for packaging. Indeed we take them as a great assest to<br>
+                our organisation."</p>
+              <br>
+              <h4 style="color: red; padding-left: 60px;" data-aos="fade-up" data-aos-once="true">-Nitesh Malhotra
+                [General Manager]</h4>
+              <p style="padding-left: 90px;"  data-aos="fade-up" data-aos-once="true">Soccer International Pvt.Ltd
+              <p>
+
+            </div>
+
+             <div class="carousel-item">
+              <p style="padding-left: 50px; padding-top: 10px;" data-aos="fade-up" data-aos-once="true">"We have been
+                Associated with SVP from years now and the quality of service<br>
+                and the product provided by them is excellent and they meet our requirement very well<br>
+              </p>
+              <br>
+              <h4 style="color: red; padding-left: 60px;" data-aos="fade-up" data-aos-once="true">-Manish Kukreja
+                [Sr.Manager - Purchase]</h4>
+              <p style="padding-left: 90px;" data-aos="fade-up" data-aos-once="true">Pantanjali Aryuved Ltd.
+              <p>
+
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+      <div class="col-sm-5">
+        <h2 style="color: white; padding-left: 90px; padding-top: 10px;" data-aos="fade-up" data-aos-once="true">Latest
+          News</h2>
+        <br>
+        <br>
+        <br>
+        <img src="img/test.jpg" height="400" width="430" style="padding-bottom: 70px; padding-left: 40px;"
+          data-aos="fade-up" data-aos-once="true" class="img-fluid">
+        <h3 style="padding-left: 30px; padding-bottom: 80px;" data-aos="fade-up" data-aos-once="true">Please Visit us at
+          PackPlus 2020 in Delhi,India</h3>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <div class="col-sm-3 pt-5">
+          <h5>QUICK LINKS</h5><br>
+          <a href="index.html">Home</a>
+          <h6 style="color: red;">...............</h6>
+          <a href="profile.html">About Us</a><br>
+          <h6 style="color: red;">.................</h6>
+          <a href="quality.html">Quality</a><br>
+          <h6 style="color: red;">..................</h6>
+          <a href="clients.html">Clients</a><br>
+          <h6 style="color: red;">...................</h6>
+          <a href="news.html">News & Events</a><br>
+          <h6 style="color: red;">............................</h6>
+          <a href="careers.html">Careers</a><br>
+          <h6 style="color: red;">...................</h6>
+          <a href="contact.html"> Contact us</a><br>
+          <h6 style="color: red;">.....................</h6>
+        </div>
+        <div class="col-sm-3 pt-5">
+          <h5>OUR PRODUCTS</h5>
+          <br>
+          <a href="bag.html">Zipper bags</a><br>
+          <h6 style="color: red;">.........................</h6>
+          <a href="zip.html">Zipper profile</a><br>
+          <h6 style="color: red;">............................</h6>
+          <a href="attach.html">Attached Zipper Bags</a><br>
+          <h6 style="color: red;">.......................................</h6>
+          <a href="slider.html">Slider Bags</a><br>
+          <h6 style="color: red;">.........................</h6>
+          <a href="retail.html">Reatail Pack</a><br>
+          <h6 style="color: red;">........................</h6>
+          <a href="special.html">Speciality Zipper bags</a><br>
+          <h6 style="color: red;">...........................................</h6>
+        </div>
+        <div class="col-sm-4 pt-5">
+          <h5>GET IN TOUCH</h5>
+          <br>
+          <p>SVP Packing Industry Pvt. Ltd.
+            Unit No. 21, 2nd Floor,
+            Mahalaxmi Industrial Estate,
+            Dainik Shivner Road, Gandhi Nagar,
+            Lower Parel (W), Mumbai - 400013. India.</p>
+          <br>
+          <p> Tel. No. :+91-22-66351516 <br> 17
+            +91-22-24945116 / 17</p>
+          <br>
+          <p>Email :info@svpmagicseal.com<br>
+            sales@svpmagicseal.com</p>
+        </div>
+
+        <div class="col-sm-2 pt-5">
+          <h5>FOLLOW US</h5>
+          <br>
+          <p> <i class="bi bi-facebook"></i></p>
+          <p> <i class="bi bi-twitter"></i></p>
+        </div>
+      </div>
+      <hr style="color: red; ">
+      <div class="row">
+        <div class="col-sm-9">
+          <p style="font-size: 13px;">@ 2023-24 SVP Packing Industry Pvt Ltd. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
+
+
+
+
